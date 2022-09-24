@@ -29,7 +29,7 @@ def load_data(data_file):
     engine = create_engine('sqlite:///' + data_file)
     df = pd.read_sql_table('message_category', engine)
     X = df['message']
-    y = df.drop(['id', 'message', 'original', 'genre'], axis=1)
+    y = df.drop(['id', 'message', 'original', 'genre', 'is_duplicated'], axis=1)
     category_names = list(np.array(y.columns))
 
     return X, y, category_names
