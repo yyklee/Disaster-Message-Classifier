@@ -5,7 +5,7 @@ During and after natural disasters, . The main purpose of this project is to bui
 
 ## File Description
 **Data**
-* [process_data.py](https://github.com/yyklee/disaster-response-pipeline/blob/main/data/process_data.py): Python script to process data.
+* [process_data.py](https://github.com/yyklee/disaster-response-pipeline/blob/main/data/process_data.py): Inputs csv files (message data and message categories data), clean and merge two datasets, and lastly creates a SQL database. 
 * [disaster_messages.csv](https://github.com/yyklee/disaster-response-pipeline/blob/main/data/disaster_messages.csv): Raw messages data.
 * [disaster_categories.csv](https://github.com/yyklee/disaster-response-pipeline/blob/main/data/disaster_categories.csv): Raw categories data. 
 
