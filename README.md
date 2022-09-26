@@ -5,16 +5,16 @@ During and after natural disasters, . The main purpose of this project is to bui
 
 ## File Description
 **Data**
-* process_data.py:
-* disaster_messages.csv:
-* disaster_categories.csv:
+* [process_data.py](https://github.com/yyklee/disaster-response-pipeline/blob/main/data/process_data.py): Python script to process data.
+* [disaster_messages.csv](https://github.com/yyklee/disaster-response-pipeline/blob/main/data/disaster_messages.csv): Raw messages data.
+* [disaster_categories.csv](https://github.com/yyklee/disaster-response-pipeline/blob/main/data/disaster_categories.csv): Raw categories data. 
 
 **Model**
-* train_classifier.py:
+* [train_classifier.py](https://github.com/yyklee/disaster-response-pipeline/blob/main/models/train_classifier.py): Python script to train model.
+* [classifier.pkl]():
 
 **App**
-* disaster_categories.csv:
-* disaster_categories.html:
+* [go.html](https://github.com/yyklee/disaster-response-pipeline/blob/main/app/templates/go.html)& [master.html](https://github.com/yyklee/disaster-response-pipeline/blob/main/app/templates/master.html): Scripts to create and start the Flask server.
 
 ## Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
