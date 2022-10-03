@@ -1,7 +1,7 @@
 # Building a Disaster Response Pipeline
 
 ## Project Overview
-During and after natural disasters, . The main purpose of this project is to build a web app that can help emergency organizations analyze real-time messages and classify them into specific categories (e.g. Water, Food, Hospitals, Aid-Related). The model for this app was based on Nature Language Processing and Random Forest Classifier, with the data collected by Figure Eight. 
+During and after natural disasters, disaster related messages and sns posts increase significantly. The main purpose of this project is to build a web app that can help emergency organizations analyze real-time messages and classify them into specific categories (e.g. Water, Food, Hospitals, Aid-Related). The model for this app was based on Nature Language Processing and Random Forest Classifier, with the data collected by Figure Eight. 
 
 ## File Description
 **Data**
@@ -29,6 +29,6 @@ Run the following command in the app's directory to run your web app. python run
 * HTML
 * Python (pandas, numpy, re, pickle, sys, sklearn, plotly, json, nltk, flask)
 
-## Licensing, Authors, Acknowledgements
+## Acknowledgements
 This project is a part of the Udacity Data Science Nanodegree.
 
