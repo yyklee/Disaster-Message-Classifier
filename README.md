@@ -11,7 +11,6 @@ During and after natural disasters, disaster related messages and sns posts incr
 
 **Model**
 * [train_classifier.py](https://github.com/yyklee/disaster-response-pipeline/blob/main/models/train_classifier.py): Python script to train model.
-* [classifier.pkl]():
 
 **App**
 * [go.html](https://github.com/yyklee/disaster-response-pipeline/blob/main/app/templates/go.html)& [master.html](https://github.com/yyklee/disaster-response-pipeline/blob/main/app/templates/master.html): Scripts to create and start the Flask server.
@@ -20,10 +19,11 @@ During and after natural disasters, disaster related messages and sns posts incr
 1. Run the following commands in the project's root directory to set up your database and model.
 
 2. To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
-To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+
+3. To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
 Run the following command in the app's directory to run your web app. python run.py
 
-3. Go to http://0.0.0.0:3001/ Or Go to http://localhost:3001/
+4. Go to http://0.0.0.0:3001/ Or Go to http://localhost:3001/
 
 ## Technologies
 * HTML
